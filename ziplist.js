@@ -21,3 +21,7 @@ function zipListTheSimpleWay(list1, list2) {
 }
 
 console.log(`Zip the simple way : ${zipListTheSimpleWay(List1, List2)}`);
+
+/**
+ * time - 19:03.29
+ */
