@@ -1,9 +1,10 @@
 /**
+ * ziplist practice WOD.
  * Created by William on 9/19/2016.
  */
 
-const list1 = [1, 2, 3];
-const list2 = ['a', 'b', 'c'];
+const List1 = [1, 2, 3];
+const List2 = ['a', 'b', 'c'];
 
 function zipList(list1, list2) {
   const list = [];
@@ -13,10 +14,10 @@ function zipList(list1, list2) {
   return list;
 }
 
-console.log(`Zip : ${zipList(list1, list2)}`);
+console.log(`Zip : ${zipList(List1, List2)}`);
 
 function zipListTheSimpleWay(list1, list2) {
   return _.flatten(_.zip(list1, list2));
 }
 
-console.log(`Zip the simple way : ${zipListTheSimpleWay(list1, list2)}`);
+console.log(`Zip the simple way : ${zipListTheSimpleWay(List1, List2)}`);
